@@ -129,14 +129,23 @@
                             </div>
                         </div>
                         <div class="right">
-                            <div class="breaking-news" id="bn10">
+                            <!--<div id="newsData" class="row newsCss"></div>-->
+                            <!--<ul id="newsList">-->
+                                <!--<li class="news-item" >1 jQuery News Ticker, Lorem ipsum dolor sit amet !</li>-->
+                                <!--<li class="news-item" >2 jQuery News Ticker, nunc nobis videntur parum clari, fiant sollemnes in futurum !</li>-->
+                                <!--<li class="news-item" >3 jQuery News Ticker, claritatem insitam; est usus legentis in iis qui facit eorum  !</li>-->
+                            <!--</ul>-->
+                            <div class="breaking-news">
                                 <div class="bn-title">
                                     <h3 class="breaking-news__header">Gündəm</h3>
-                                    <span></span>
                                 </div>
-                                <ul class="breaking-news__list">
-                                    <li style="display: block; width: 100%;"><a href="#">Üç çexiyalı XVI əsrə aid taxta kostyolu yandırıb...</a></li>
-                                </ul>
+                                <div class="breaking-news__container">
+                                    <ul id="newsList" class="breaking-news__list">
+                                        <li class="news-item"><a href="#">XVI əsrə aid taxta kostyolu yandırıb...</a></li>
+                                        <li class="news-item"><a href="#">Aid taxta kostyolu yandırıb...</a></li>
+                                        <li class="news-item"><a href="#">Üç çexiyalı XVI əsrə aid taxta kostyolu yandırıb...</a></li>
+                                    </ul>
+                                </div>
                                 <div class="breaking-news__nav">
                                     <span class="nav-prev breaking-news__nav-item"></span>
                                     <span class="nav-pause breaking-news__nav-item"></span>
@@ -900,6 +909,7 @@
                 </footer>
             <script src="lib/jquery-3.2.1.min.js"></script>
             <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="lib/newsTicker.js"></script>
             <script src="js/main.js"></script>
             <div class="faceboookwidget" style="">
                 <div>

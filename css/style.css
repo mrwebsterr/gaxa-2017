@@ -847,13 +847,16 @@ body {
   margin-bottom: 20px; }
 
 .breaking-news__list {
-  background-color: #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   width: 752px;
-  padding: 8px;
-  border: 2px solid #005C86; }
+  padding: 8px; }
+
+.breaking-news__container {
+  border: 2px solid #005C86;
+  background-color: #FFFFFF;
+  width: 752px; }
 
 .breaking-news__header {
   margin: 0;
@@ -876,9 +879,11 @@ body {
   height: 100%; }
 
 .nav-pause {
+  cursor: pointer;
   background-color: #D4E0E4; }
 
 .nav-prev {
+  cursor: pointer;
   position: relative; }
 
 .nav-prev::after {
@@ -893,6 +898,7 @@ body {
   border-right: 10px solid #005C86; }
 
 .nav-next {
+  cursor: pointer;
   position: relative; }
 
 .nav-next::after {

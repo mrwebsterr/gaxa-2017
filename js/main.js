@@ -17,11 +17,14 @@ $(document).ready(function(){
             $(this).html(index);
         }
     });
-    $(".faceboookwidget").hover(function() {
-        $(this).stop().animate({right: "0"}, "medium");
-        }, function() {
-            $(this).stop().animate({
-                right: "-345"
-            }, "medium");
-            }, 500);
+
+    $('#newsList').newsTicker({
+        interval: "5000",
+        newsData: "#newsList",
+        prevBtnDiv: ".nav-prev",
+        nextBtnDiv: ".nav-next",
+        playPauseID: ".nav-pause",
+        debugMode:0
+    });
+
 });

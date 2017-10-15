@@ -667,7 +667,6 @@ a {
 
 body {
   font-family: Arial, sans-serif;
-  background: url(../img/bg-img.png) no-repeat top center;
   margin: 0;
   line-height: 16px;
   display: -webkit-box;
@@ -681,6 +680,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.main-page {
+  background: url(../img/bg-img.png) no-repeat top center; }
 
 .top {
   display: -webkit-box;
@@ -832,7 +834,7 @@ body {
 
 .main-page {
   width: 1250px;
-  margin: auto auto auto -490px;
+  margin: auto auto auto -625px;
   z-index: 99999999;
   position: absolute;
   left: 50%;
@@ -943,3 +945,7 @@ body {
 
 .weather-widget {
   padding-top: 10px; }
+
+@media (max-width: 1024px) {
+  .main-page {
+    margin: auto auto auto -490px; } }

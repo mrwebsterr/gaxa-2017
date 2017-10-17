@@ -19,11 +19,11 @@ $(document).ready(function(){
     });
     $(".faceboookwidget").hover(function() {
         $(this).stop().animate({right: "0"}, "medium");
-          }, function() {
-             $(this).stop().animate({
-                 right: "-345"
-             }, "medium");
-          }, 500);
+        }, function() {
+            $(this).stop().animate({
+                right: "-345"
+            }, "medium");
+            }, 500);
 
     $('#newsList').newsTicker({
         interval: "5000",
@@ -33,5 +33,4 @@ $(document).ready(function(){
         playPauseID: ".nav-pause",
         debugMode:0
     });
-
 });

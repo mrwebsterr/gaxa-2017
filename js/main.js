@@ -33,4 +33,15 @@ $(document).ready(function(){
         playPauseID: ".nav-pause",
         debugMode:0
     });
+
+});
+
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 140) {
+        $('.page-header__bottom').addClass('fixed-header');
+    }
+    else {
+        $('.page-header__bottom').removeClass('fixed-header');
+    }
 });

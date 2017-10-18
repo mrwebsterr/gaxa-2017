@@ -364,6 +364,9 @@ a {
   padding-right: 50px;
   border-right: 2px solid #FFFFFF; }
 
+.page-footer__item:first-child {
+  padding-left: 25px; }
+
 .page-footer__list-header {
   font-size: 18px; }
 
@@ -952,6 +955,13 @@ body {
 
 .weather-widget {
   padding-top: 10px; }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; }
 
 @media (max-width: 1024px) {
   .main-page {
